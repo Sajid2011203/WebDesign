@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100rem;
+    /* position: relative; */
+}
+
+header{
+    background: gray;
+    
+}
+.nav{
+    background: indianred;
+    height: 2rem;
+    position: sticky;
+    top: 0;
+    
+}
+
+
+.parent{
+    background-color: aliceblue;
+    width: 500px;
+    height: 600px;
+    margin: 3rem 3rem;
+    /* position: relative; */
+    
+}
+.cild1{
+    background-color: orange;
+    width: 10rem;
+    height: 10rem;
+    position: absolute;
+    top: 150pt;
+    right: 60px;
+    padding: 20px;
+    z-index: -1;
+}
+.cild2{
+    background-color: blue;
+    width: 10rem;
+    height: 10rem;
+    position: relative;
+    padding: 20px;
+    margin: 10;
+    
+}
+
+.fixed{
+    background-color: blueviolet;
+    width: 10rem;
+    height: 10rem;
+    position: fixed;
+    top: 150pt;
+    right: 250px;
+
+}
