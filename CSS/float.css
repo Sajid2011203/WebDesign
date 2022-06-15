@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper{
+    border: 2px solid black;
+    width: 50%;
+    height:auto;
+    margin: auto;
+
+}
+
+.chaild1{
+    width: 100px;
+    height: 50px;
+    background-color: gray;
+    float: left;
+}
+
+.chaild2{
+    width: 150px;
+    height: 100px;
+    background-color: aqua;
+    float: right;
+    top: 0;
+    right: 0;
+}
+
+.footer{
+    background-color: peru;
+    width: 50%;
+    height: 100px;
+    margin: auto;
+}
+
+.clearfix::after{
+    content: '';
+    display: block;
+    clear: both;
+
+}
