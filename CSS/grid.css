@@ -1,0 +1,47 @@
+* {
+  margin: 0 ;
+  box-sizing: border-box;
+  padding: 0;
+}
+
+
+.grid-container{
+  width: 60vw;
+  height: auto;
+  margin: 0 auto;
+  display: grid;
+  gap: 10px;
+  grid-template-columns: [column1-start] 200px [column2-start]200px [column3-start]200px [column3-end];
+  grid-template-rows: [row1-start]auto [row2-start] auto [row2-end];
+  
+}
+
+.grid-item{
+  background-color: gray;
+  text-align: center;
+  padding:50px;
+  font-size: 100px;
+  font-weight: bold;
+  color: orange;
+}
+
+.one{
+ grid-column: column1-start / column3-start;
+ grid-row: row1-start; 
+}
+.two{
+  grid-column: column3-start;
+  grid-row: row1-start / row2-end
+}
+
+.three{
+  grid-row: 2;
+  grid-column: 1;
+}
+.four{
+ grid-row: 2;
+ grid-column: 2;
+}
+.five{
+  grid-area: 1/2/2/3
+}

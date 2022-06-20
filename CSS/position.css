@@ -29,7 +29,7 @@ header{
     /* position: relative; */
     
 }
-.cild1{
+.child1{
     background-color: orange;
     width: 10rem;
     height: 10rem;
@@ -39,7 +39,7 @@ header{
     padding: 20px;
     z-index: -1;
 }
-.cild2{
+.child2{
     background-color: blue;
     width: 10rem;
     height: 10rem;
