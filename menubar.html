@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Menu Bar</title>
+    <style>
+      nav {
+        background-color: gray;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+          'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      }
+      * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+      }
+      nav ul {
+        padding: 0;
+        margin: 0;
+        list-style-type: none;
+        overflow: hidden;
+      }
+
+      nav ul li {
+        float: left;
+      }
+      nav ul li a {
+        text-decoration: none;
+        display: inline-block;
+        padding: 15px 30px;
+        color: white;
+      }
+      nav ul li a:hover {
+        background-color: rgb(54, 49, 49);
+      }
+      .nav-bar{
+        width: 50%;
+        height: auto;
+        float: right;
+      }
+      nav{
+        overflow: hidden;
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <div class="nav-bar">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Product</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact Us</a></li>
+        </ul>
+      </div>
+    </nav>
+  </body>
+</html>

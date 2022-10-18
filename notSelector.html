@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>css not selector</title>
+  <style>
+    .one > h1:not(:nth-child(5)){
+      border: 2px solid red;
+    }
+  </style>
+</head>
+<body>
+  <div class="one">
+    <h1>Hello 1</h1>
+    <h1>Hello 2</h1>
+    <h1>Hello 3</h1>
+    <h1>Hello 4</h1>
+    <h1>Hello 5</h1>
+    <h1>Hello 6</h1>
+    <h1>Hello 7</h1>
+    <h1>Hello 8</h1>
+    <h1>Hello 9</h1>
+    <h1>Hello 10</h1>
+  </div>
+</body>
+</html>

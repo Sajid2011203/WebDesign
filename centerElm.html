@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>center element</title>
+    <style>
+      .container {
+        width: 70%;
+        border: 2px solid tomato;
+        height: 150px;
+        position: relative;
+      }
+      .child{
+        border: 1px solid black;
+        /* width: 200px; */
+        /* height: 100px; */
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+        <div class="child">
+            <p style="background-color: lightblue; color: white;">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio,
+                delectus!
+              </p>
+        </div>
+    </div>
+  </body>
+</html>
